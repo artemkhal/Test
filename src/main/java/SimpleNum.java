@@ -4,13 +4,15 @@ import java.util.List;
 public class SimpleNum {
 
 
-    public static List<Integer> getSimple(int num){
+    public static List<Integer> getSimple(int num) {
         List<Integer> simpleNumList = new ArrayList<>();
         int i = 2;
         while (num > 0) {
-            if (isPrime(i)) {
-                simpleNumList.add(i);
-                num--;
+            synchronized (simpleNumList) {
+                if (isPrime(i)) {
+                    simpleNumList.add(i);
+                    num--;
+                }
             }
             i++;
         }

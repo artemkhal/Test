@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+
 import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
@@ -12,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MainTest {
 
-    private String filePath = "src/main/resources/a000040.txt"; //взято по адресу https://oeis.org/A000040/a000040.txt
+    private final String FILE_PATH = "src/main/resources/a000040.txt"; //взято по адресу https://oeis.org/A000040/a000040.txt
 
     @Test
     void testFirst100() throws IOException {
@@ -48,7 +49,7 @@ public class MainTest {
 
 
     private int getSimpleNumToFile(int num) throws IOException {
-        Path path = FileSystems.getDefault().getPath(filePath);
+        Path path = FileSystems.getDefault().getPath(FILE_PATH);
         Map<Integer, Integer> mapFromFile = Files.lines(path)
                 .collect(Collectors.toMap(k -> Integer.parseInt(k.split(" ")[0]), v -> Integer.parseInt(v.split(" ")[1])));
         return mapFromFile.get(num);
