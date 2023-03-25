@@ -7,7 +7,7 @@
     <list default="true" id="e53f3feb-1806-4521-9fb0-2242e93b9bdb" name="Changes" comment="logic and tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SimpleNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SimpleNum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testFirstHundred" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testFirst100000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testFirstHundred" />
+      <option name="METHOD_NAME" value="testFirst100000" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,10 +95,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testFirst100 (1)" />
+        <item itemvalue="JUnit.MainTest.testFirst100000" />
         <item itemvalue="JUnit.MainTest.testFirst100" />
+        <item itemvalue="JUnit.MainTest.testFirst100 (1)" />
         <item itemvalue="Application.SieveOfEratosthenes" />
-        <item itemvalue="JUnit.MainTest.testFirstHundred" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679748377363</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="logic and tests">
+      <created>1679749721049</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679749721049</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
